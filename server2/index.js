@@ -6,13 +6,13 @@ const myServer = http.createServer((req,res)=>{
       const myUrl = url.parse(req.url,true);
       console.log(myUrl);
       switch(myUrl.pathname){
-                  case "/": res.end("Home Page");
+                  case "/": res.send("Home Page");
                   break;
-                  case "/aboutus": res.end("About Us");
+                  case "/aboutus": res.send("About Us");
                   break;
-                  case "/contact": res.end("Contact");
+                  case "/contact": res.send("Contact");
                   break;
-                  default: res.end("404 : ERROR");
+                  default: res.send("404 : ERROR");
       }
 })
 
