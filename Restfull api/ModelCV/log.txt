@@ -1,4 +1,3 @@
 
-1704054063476: ::1 : GET: /api/users
-1704054072461: ::1 : POST: /api/users
-1704054150850: ::1 : GET: /api/users/10
+1704125508688: ::1 : POST: /api/users
+1704125513037: ::1 : GET: /api/users
